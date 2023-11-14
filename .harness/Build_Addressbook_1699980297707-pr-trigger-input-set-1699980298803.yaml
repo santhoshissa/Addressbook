@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Addressbook_1699980297707-pr-trigger-input-set
+  identifier: Build_Addressbook_1699980297707prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Addressbook
+  pipeline:
+    identifier: Build_Addressbook_1699980297707
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
