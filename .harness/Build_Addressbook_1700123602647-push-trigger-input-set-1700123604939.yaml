@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Addressbook_1700123602647-push-trigger-input-set
+  identifier: Build_Addressbook_1700123602647pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Addressbook_1700123602647
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
